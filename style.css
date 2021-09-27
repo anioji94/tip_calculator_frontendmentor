@@ -44,9 +44,11 @@ body {
 
     height: 50%;
     /* width: 50%; */
+    min-height: 400px;
     min-width: 600px;
 
-    padding: 30px;
+    padding: 50px;
+    margin: 20px;
 }
 
 .input {
