@@ -75,6 +75,7 @@ body {
 button {
     padding: 10px 20px;
     margin: 1px;
+    border-radius: 5px;
     border-width: 0px;
     background-color: var(--veryDarkCyan);
     color: var(--white);
@@ -83,4 +84,22 @@ button {
 button:focus, button:hover {
     background-color: var(--strongCyan);
     color: var(--veryDarkCyan);
+}
+
+.output button {
+    background-color: var(--strongCyan);
+    color: var(--veryDarkCyan);
+    width: 100%;
+}
+
+.output button:hover {
+    background-color: var(--lightGrayishCyan);
+}
+
+input {
+    background-color: var(--lightGrayishCyan);
+    color: var(--darkGrayishCyan);
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 5px;
 }
