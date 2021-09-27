@@ -24,6 +24,7 @@
 
 body {
     background-color: var(--lightGrayishCyan);
+    font-family: var(--fontFamily);
     /* display: grid;
     place-items: center; */
     /* justify-content: center; */
@@ -41,4 +42,19 @@ body {
 
     height: 40%;
     width: 60%;
+
+    padding: 10px;
+}
+
+.input {
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.output {
+    background-color: var(--veryDarkCyan);
+    color: var(--white);
+    width: 50%;
+    padding: 5px;
 }
