@@ -1,17 +1,19 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    console.log('what up loser')
+ const bill = document.getElementById('bill-input')
+ const tip = document.getElementById('percentage')
+ const numOfPeople = document.getElementById('num-of-people')
+ const tipPerPerson = document.getElementById('per-person')
+ const tipTotal = document.getElementById('total')
+ const reset = document.getElementById('reset-button')
 
-    const billValue = document.getElementById("bill-input").value
-    const numOfPeople = document.getElementById("num-of-people").value
-    console.log("Value of the Bill = £" + billValue)
-    console.log("There are " + numOfPeople + " guests.")
+ bill.value = 0.00
+ 
+ tip.onclick = () => {
+     console.log(bill.value - 1)
+     console.log(tip.innerText)
+     console.log(bill.value/parseFloat(tip.innerText))
+ }
 
-    document.getElementById("5").onclick = () => {
-        console.log((billValue*(0.05))/numOfPeople)
-    }
-    document.getElementById("10")
-    document.getElementById("15")
-    document.getElementById("25")
-    document.getElementById("50")
+
     
 })
