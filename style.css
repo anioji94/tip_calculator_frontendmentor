@@ -44,7 +44,6 @@ body {
     min-width: 600px;
 
     padding: 20px;
-    margin: 0px;
 }
 
 .left-panel {
@@ -78,17 +77,31 @@ body {
 }
 
 button {
-    padding: 10px 20px;
+    width: 90px;
+    height: 35px;
     margin: 1px;
     border-radius: 5px;
     border-width: 0px;
     background-color: var(--veryDarkCyan);
     color: var(--white);
+    font-family: var(--fontFamily);
+    font-weight: var(--fontWeightHeavy);
+    font-size: 15px;
 }
 
 button:focus, button:hover {
     background-color: var(--strongCyan);
     color: var(--veryDarkCyan);
+}
+
+.left-panel p {
+    font-weight: var(--fontWeightHeavy);
+    color: var(--darkGrayishCyan);
+}
+
+.right-panel p {
+    font-weight: var(--fontWeightHeavy);
+    color: var(--darkGrayishCyan);
 }
 
 .right-panel button {
@@ -119,6 +132,12 @@ input {
     height: 30px;
     width: 90%;
     align-items: right;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+input :focus {
+    background-color: red;
 }
 
 input::-webkit-outer-spin-button,
