@@ -70,6 +70,7 @@ body {
 }
 
 .value {
+    color: var(--strongCyan);
     font-size: 30px;
     padding-left: 50px;
 }
@@ -96,6 +97,15 @@ button:focus, button:hover {
 
 .output button:hover {
     background-color: var(--lightGrayishCyan);
+}
+
+#title {
+    color: var(--white);
+}
+
+.unit p {
+    color: var(--darkGrayishCyan2);
+    size: var(--fontSize);
 }
 
 input {
