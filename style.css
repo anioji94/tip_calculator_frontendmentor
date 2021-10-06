@@ -26,9 +26,6 @@ body {
     background-color: var(--lightGrayishCyan);
     font-family: 'Space Mono', monospace;
     font-weight: 700px;
-    /* display: grid;
-    place-items: center; */
-    /* justify-content: center; */
 }
 
 .container {
@@ -43,7 +40,6 @@ body {
     border-radius: 25px;
 
     height: 50%;
-    /* width: 50%; */
     min-height: 400px;
     min-width: 600px;
 
@@ -53,26 +49,35 @@ body {
 
 .input {
     width: 50%;
-    padding: 25px;
+    padding: 25px;    
+}
+
+.input div {
+    margin-top: 20px;
 }
 
 .output {
     background-color: var(--veryDarkCyan);
     color: var(--white);
     width: 50%;
-    padding: 25px;
+    padding: 0px;
     border-radius: 25px;
 }
 
-.tip, .reset {
-    padding: 30px;
+.tip {
+    padding: 30px 30px 30px 30px;
+    display: flex;
+}
+
+.reset {
+    padding: 30px 30px 30px 30px;
     display: flex;
 }
 
 .value {
     color: var(--strongCyan);
     font-size: 30px;
-    padding-left: 50px;
+    padding-left: 20px;
 }
 
 button {

@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
  // Default Values
  bill.value = 0.00
  numOfPeople.value = 0
- tipPerPerson.innerText = 0.00
- tipTotal.innerText = 0.00
+ tipPerPerson.innerText = '0.00'
+ tipTotal.innerText = '0.00'
  
 
  // Functions
@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
  reset.onclick = () => {
     bill.value = 0.00
     numOfPeople.value = 0
-    tipPerPerson.innerText = 0.00
-    tipTotal.innerText = 0.00 
+    tipPerPerson.innerText = '0.00'
+    tipTotal.innerText = '0.00' 
  }
     
 })
