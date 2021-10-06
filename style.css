@@ -24,7 +24,7 @@
 
 body {
     background-color: var(--lightGrayishCyan);
-    font-family: var(--fontFamily);
+    font-family: 'Space Mono', monospace;
     font-weight: 700px;
     /* display: grid;
     place-items: center; */
@@ -126,3 +126,7 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');

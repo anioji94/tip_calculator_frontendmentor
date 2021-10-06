@@ -21,12 +21,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
      return bill * (tip/100) 
  }
 
- function resetValue() {
-    bill.value = 0.00
-    numOfPeople.value = 0
-    tipPerPerson.innerText = 0.00
-    tipTotal.innerText = 0.00
- }
 
  // Event Listeners
  document.querySelectorAll('#percentage').forEach(item => {
