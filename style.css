@@ -89,6 +89,14 @@ button {
     font-size: 15px;
 }
 
+.custom:focus {
+    width: 75px;
+    height: 35px;
+    margin: 1px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
 button:focus, button:hover {
     background-color: var(--strongCyan);
     color: var(--veryDarkCyan);

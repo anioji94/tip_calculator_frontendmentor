@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
  const tipPerPerson = document.getElementById('per-person-value')
  const tipTotal = document.getElementById('total-value')
  const reset = document.getElementById('reset-button')
+ const custom = document.querySelector('.custom')
  
  // Default Values
  bill.value = 0.00
@@ -38,5 +39,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
     tipPerPerson.innerText = '0.00'
     tipTotal.innerText = '0.00' 
  }
+
+ custom.addEventListener('focusin', () => {
+     custom.outerHTML = '<input type="number" class="custom" id="percentage">'
+     setTimeout(custom.focus(), 50)
+ })
+
+//  custom.addEventListener('focusout', () => {
+//     custom.outerHTML = '<button id="percentage" class="custom">Custom</button>'
+//  })
     
 })
