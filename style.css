@@ -63,6 +63,7 @@ body {
 .tip {
     padding-top: 10px;
     padding-left: 30px;
+    margin-top: 20px;
     display: flex;
 }
 
@@ -143,9 +144,10 @@ input {
     align-items: right;
     padding: 5px;
     padding-left: 10px;
+    direction: rtl;
 }
 
-input :focus {
+input :enabled {
     background-color: red;
 }
 
@@ -153,6 +155,16 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+#bill-input {
+    background: url(/images/icon-dollar.svg) no-repeat scroll 7px 50%;
+    padding-left: 30px;
+}
+
+#num-of-people {
+    background: url(/images/icon-person.svg) no-repeat scroll 7px 50%;
+    padding-left: 30px;
 }
 
 /* Firefox */

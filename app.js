@@ -26,7 +26,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
  // Event Listeners
  document.querySelectorAll('#percentage').forEach(item => {
     item.addEventListener('focusin', () => {
-        // resetValue()
         let tip = parseFloat(item.innerText)
         tipTotal.innerText = calculateTipTotal(bill.value, tip).toFixed(2)
         tipPerPerson.innerText = (calculateTipTotal(bill.value, tip)/numOfPeople.value).toFixed(2)
@@ -42,7 +41,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
  custom.addEventListener('focusin', () => {
      custom.outerHTML = '<input type="number" class="custom" id="percentage">'
-     setTimeout(custom.focus(), 50)
  })
 
 //  custom.addEventListener('focusout', () => {
