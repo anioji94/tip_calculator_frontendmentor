@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
  // Variables
  const bill = document.getElementById('bill-input')
  const selectTip = document.getElementById('select-tip')
- const percentage = document.getElementById('percentage')
+ const percentage = document.getElementsByClassName('percentage')
  const numOfPeople = document.getElementById('num-of-people')
  const tipPerPerson = document.getElementById('per-person-value')
  const tipTotal = document.getElementById('total-value')
